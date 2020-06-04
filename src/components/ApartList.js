@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+// import { withRouter } from 'react-router-dom';
 import Map from './GoogleMaps';
 
 class ApartData extends Component {
     render() {
         return <div className="apart-warp">
-            <img className="image" src={`${this.props.data.Images.Primary}`} alt=''></img>
+            <img className="image" href="/Detail" src={`${this.props.data.Images.Primary}`} alt=''></img>
             <div className="detail">
                 <span className="name">{this.props.data.Name}</span>
                 <span className="description">{this.props.data.Description}</span>
@@ -42,7 +43,6 @@ class ApartList extends Component {
             // if (searchTerm !== '')
             //     ListData.push( <SearchMatch match = {key}></SearchMatch>);
             ListData.push( <ApartData data = {row}></ApartData>);
-            Map.initateMarkers(row.Address.Latitude, row.Address.Longitude);
         })
 
         return <div>
