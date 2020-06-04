@@ -9,8 +9,8 @@ import mapStyles from "./mapStyles";
 
 const libraries = ["places"];
 const mapContainerStyle = {
-    width: "30rem",
-    height: "30rem",
+    width: "48vw",
+    height: "89vh",
 };
 const center = {
     lat: -6.261493,
@@ -30,12 +30,20 @@ export default function Map() {
     const [markers, setMarkers] = React.useState([]);
     const [selected, setSelected] = React.useState(null);
     
+    const initateMarkers = (lat, lng) => {
+        setMarkers(current => [...current, {
+            lat: lat,
+            lng: lng,
+            time: new Date(),
+        }])
+    }
+
     const onMapClick = React.useCallback((event) => {
-    setMarkers(current => [...current, {
-        lat: event.latLng.lat(),
-        lng: event.latLng.lng(),
-        time: new Date(),
-    }])
+        setMarkers(current => [...current, {
+            lat: event.latLng.lat(),
+            lng: event.latLng.lng(),
+            time: new Date(),
+        }])
     }, [])
     
     const mapRef = React.useRef();

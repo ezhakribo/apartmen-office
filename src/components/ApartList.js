@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
+import Map from './GoogleMaps';
 
 class ApartData extends Component {
     render() {
-        return <div className="data-apart">
-            <div className="image" src={this.props.data.Images.Primary}></div>
+        return <div className="apart-warp">
+            <img className="image" src={`${this.props.data.Images.Primary}`} alt=''></img>
             <div className="detail">
                 <span className="name">{this.props.data.Name}</span>
                 <span className="description">{this.props.data.Description}</span>
-                <span className="address">{this.props.data.Address.Street}</span>
+                <span className="address">&#x1F4CD; {this.props.data.Address.Street}</span>
             </div>
-            <button className="detailButton"></button>
+            <button className="detailButton">Detail</button>
         </div>
     }
 }
@@ -40,7 +41,8 @@ class ApartList extends Component {
             
             // if (searchTerm !== '')
             //     ListData.push( <SearchMatch match = {key}></SearchMatch>);
-            ListData.push( <ApartData data = {row}></ApartData>)
+            ListData.push( <ApartData data = {row}></ApartData>);
+            Map.initateMarkers(row.Address.Latitude, row.Address.Longitude);
         })
 
         return <div>

@@ -1,0 +1,128 @@
+[
+    {
+        "ID": "01",
+        "Name": "Apart A",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac sapien ante. Ut facilisis vitae ipsum sed elementum. Etiam volutpat ullamcorper massa at tempor. ",
+        "Facilities" : ["Kasur", "Balkon", "WC"],
+        "Type" : "Apartment",
+        "Images" : {
+            "Primary" : "./img/a.png",
+            "Others" : ["./img/other1.png", "./img/other2.png", "./img/other3.png"]
+        },
+        "Address" : {
+            "Street" : "Jl. Jalan Kemana Aja",
+            "City" : "Jakarta Selatan",
+            "Country" : "Indonesia",
+            "Longitude" : 9.87654,
+            "Latitude" : 60.06060
+        }
+    },
+    {
+        "ID": "02",
+        "Name": "Apart B",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac sapien ante. Ut facilisis vitae ipsum sed elementum. Etiam volutpat ullamcorper massa at tempor. ",
+        "Facilities" : ["Kasur", "Balkon", "WC"],
+        "Type" : "Apartment",
+        "Images" : {
+            "Primary" : "./img/a.png",
+            "Others" : ["./img/other1.png", "./img/other2.png", "./img/other3.png"]
+        },
+        "Address" : {
+            "Street" : "Jl. Jalan Kemana Aja",
+            "City" : "Jakarta Selatan",
+            "Country" : "Indonesia",
+            "Longitude" : 9.87654,
+            "Latitude" : 90.06060
+        }
+    },
+    {
+        "ID": "03",
+        "Name": "Apart C",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac sapien ante. Ut facilisis vitae ipsum sed elementum. Etiam volutpat ullamcorper massa at tempor. ",
+        "Facilities" : ["Kasur", "Balkon", "WC"],
+        "Type" : "Apartment",
+        "Images" : {
+            "Primary" : "./img/a.png",
+            "Others" : ["./img/other1.png", "./img/other2.png", "./img/other3.png"]
+        },
+        "Address" : {
+            "Street" : "Jl. Jalan Kemana Aja",
+            "City" : "Jakarta Selatan",
+            "Country" : "Indonesia",
+            "Longitude" : 9.87654,
+            "Latitude" : 90.06060
+        }
+    },
+    {
+        "ID": "04",
+        "Name": "Apart D",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac sapien ante. Ut facilisis vitae ipsum sed elementum. Etiam volutpat ullamcorper massa at tempor. ",
+        "Facilities" : ["Kasur", "Balkon", "WC"],
+        "Type" : "Apartment",
+        "Images" : {
+            "Primary" : "./img/a.png",
+            "Others" : ["./img/other1.png", "./img/other2.png", "./img/other3.png"]
+        },
+        "Address" : {
+            "Street" : "Jl. Jalan Kemana Aja",
+            "City" : "Jakarta Selatan",
+            "Country" : "Indonesia",
+            "Longitude" : 9.87654,
+            "Latitude" : 90.06060
+        }
+    },
+    {
+        "ID": "05",
+        "Name": "Apart E",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac sapien ante. Ut facilisis vitae ipsum sed elementum. Etiam volutpat ullamcorper massa at tempor. ",
+        "Facilities" : ["Kasur", "Balkon", "WC"],
+        "Type" : "Apartment",
+        "Images" : {
+            "Primary" : "./img/a.png",
+            "Others" : ["./img/other1.png", "./img/other2.png", "./img/other3.png"]
+        },
+        "Address" : {
+            "Street" : "Jl. Jalan Kemana Aja",
+            "City" : "Jakarta Selatan",
+            "Country" : "Indonesia",
+            "Longitude" : 9.87654,
+            "Latitude" : 90.06060
+        }
+    },
+    {
+        "ID": "06",
+        "Name": "Apart F",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac sapien ante. Ut facilisis vitae ipsum sed elementum. Etiam volutpat ullamcorper massa at tempor. ",
+        "Facilities" : ["Kasur", "Balkon", "WC"],
+        "Type" : "Apartment",
+        "Images" : {
+            "Primary" : "./img/a.png",
+            "Others" : ["./img/other1.png", "./img/other2.png", "./img/other3.png"]
+        },
+        "Address" : {
+            "Street" : "Jl. Jalan Kemana Aja",
+            "City" : "Jakarta Selatan",
+            "Country" : "Indonesia",
+            "Longitude" : 9.87654,
+            "Latitude" : 90.06060
+        }
+    },
+    {
+        "ID": "07",
+        "Name": "Apart G",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac sapien ante. Ut facilisis vitae ipsum sed elementum. Etiam volutpat ullamcorper massa at tempor. ",
+        "Facilities" : ["Kasur", "Balkon", "WC"],
+        "Type" : "Apartment",
+        "Images" : {
+            "Primary" : "./img/a.png",
+            "Others" : ["./img/other1.png", "./img/other2.png", "./img/other3.png"]
+        },
+        "Address" : {
+            "Street" : "Jl. Jalan Kemana Aja",
+            "City" : "Jakarta Selatan",
+            "Country" : "Indonesia",
+            "Longitude" : 9.87654,
+            "Latitude" : 90.06060
+        }
+    }
+]
