@@ -31,11 +31,12 @@ export default function Map() {
     const [selected, setSelected] = React.useState(null);
     
     const initateMarkers = (lat, lng) => {
-        setMarkers(current => [...current, {
-            lat: lat,
-            lng: lng,
-            time: new Date(),
-        }])
+        // setMarkers(current => [...current, {
+        //     lat: lat,
+        //     lng: lng,
+        //     time: new Date(),
+        // }])
+        console.log('Masuk Ga Tuh')
     }
 
     const onMapClick = React.useCallback((event) => {
@@ -65,15 +66,15 @@ export default function Map() {
         >
         {markers.map((marker) => (
             <Marker
-            key={marker.time.toISOString()}
-            position={{ lat: marker.lat, lng: marker.lng }}
-            // icon={{
-            //   url: "/pin.svg",
-            //   scaledSize: new window.google.maps.Size(30,30),
-            // }}
-            onClick={() => {
-                setSelected(marker);
-            }}
+                key={marker.time.toISOString()}
+                position={{ lat: marker.lat, lng: marker.lng }}
+                // icon={{
+                //   url: "/pin.svg",
+                //   scaledSize: new window.google.maps.Size(30,30),
+                // }}
+                onClick={() => {
+                    setSelected(marker);
+                }}
             />
         ))}
 

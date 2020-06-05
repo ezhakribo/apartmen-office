@@ -42,7 +42,8 @@ class ApartList extends Component {
             
             // if (searchTerm !== '')
             //     ListData.push( <SearchMatch match = {key}></SearchMatch>);
-            ListData.push( <ApartData data = {row}></ApartData>);
+            ListData.push( <ApartData key = {key} data = {row}></ApartData>);
+            // <Map lat={row.Address.Latitude} lng={row.Address.Longitude} ></Map>
         })
 
         return <div>
